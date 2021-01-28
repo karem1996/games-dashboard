@@ -1,0 +1,307 @@
+main {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left bottom, right top, from(#65dfc9), to(#6cdbeb));
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .glass {
+  background: white;
+  height: 80vh;
+  width: 60%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+}
+
+main .glass .dashboard {
+  max-width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem 0 0 2rem;
+}
+
+main .glass .dashboard .user {
+  height: 20%;
+}
+
+main .glass .dashboard .user .img {
+  height: 60px;
+  width: 60px;
+  background: url("./image/karem.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 50%;
+}
+
+main .glass .dashboard .user h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #426696;
+}
+
+main .glass .dashboard .user p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #658ec6;
+  opacity: 0.8;
+}
+
+main .glass .dashboard .links {
+  height: 40%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .glass .dashboard .links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+main .glass .dashboard .links .link img {
+  width: 20px;
+  height: 20px;
+}
+
+main .glass .dashboard .links .link h2 {
+  font-size: 15px;
+  text-align: center;
+  min-width: 100px;
+  color: #658ec6;
+}
+
+main .glass .dashboard .pro {
+  height: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, right top, from(#65dfc9), to(#6cdbeb));
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 80%;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+main .glass .dashboard .pro h2 {
+  font-size: 20px;
+  color: white;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  font-weight: 400;
+}
+
+main .glass .dashboard .pro img {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+main .glass .games {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1rem 2rem 1rem 0rem;
+}
+
+main .glass .games .status {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .glass .games .status h1 {
+  color: #426696;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main .glass .games .status input {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  width: 60%;
+  height: 20px;
+}
+
+main .glass .games .cards {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .glass .games .cards .card {
+  height: 25%;
+  border: 0;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, right bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  cursor: pointer;
+}
+
+main .glass .games .cards .card .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .glass .games .cards .card img {
+  width: 60px;
+  margin-right: auto;
+  text-align: left;
+}
+
+main .glass .games .cards .card .card-info {
+  padding: 0;
+  max-width: 92%;
+  margin: auto;
+}
+
+main .glass .games .cards .card .card-info h2 {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #658ec6;
+  margin-bottom: 3px;
+}
+
+main .glass .games .cards .card .card-info p {
+  text-align: left;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  color: #658ec6;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+main .glass .games .cards .card .card-info .progress {
+  height: 15px;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left bottom, right top, from(#65dfc9), to(#6cdbeb));
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+main .glass .games .cards .card .card-info .progress:after {
+  content: "";
+  width: 40%;
+  background: #ececec;
+  margin-left: auto;
+}
+
+main .glass .games .cards .card .percentage {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: bold;
+  font-size: 13px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#65dfc9), to(#6cdbeb));
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+/*# sourceMappingURL=styles.css.map */
